@@ -1,5 +1,5 @@
 body{
-    background-color: #EFE9E3;
+    background-color: #D3DAD9;
     display : flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +25,9 @@ label{
 }
 
 input, textarea{
+    font-weight : 500;
+    font-size : 14px;
+    letter-spacing: 1px;
     background-color: transparent;
     margin-top : 10px;
     width : 80%;
@@ -42,6 +45,10 @@ input:focus, textarea:focus{
 }
 
 button{
+    width : 30%;
+    font-size : 14px;
+    font-weight : 500;
+    letter-spacing: 2px;
     background-color: transparent;
     cursor : pointer;
     padding : 10px 20px;
@@ -49,7 +56,8 @@ button{
 }
 
 button:hover{
-    background-color: #C9B59C;
+    background-color: #37353E;
+    color : white;
 }
 
 .contact-form span {
